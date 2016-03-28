@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Blog</title>
-  <h1>All Posts</h1>
-</head>
-<body>
-
-</body>
-</html>
+<title>Blog</title>
+<% @posts.each do |post| %>
+  <div class="post_wrapper">
+    <h2 class="title"><%= link_to post.title, post %></h2>
+    <p class="date"><%= post.created_at.strftime("%B, %d, %Y")%></p>
+  </div>
+<% end %>
