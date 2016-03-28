@@ -3,4 +3,4 @@ In this repository I have created a blogging site. In which user can post, updat
 #Languages
 For this repository I'm using ruby on rails. For templating I'm using erb and scss for styling
 
-Special thanks to #@Mackenziechild
+Special thanks to #Mackenziechild and #JoseMota
